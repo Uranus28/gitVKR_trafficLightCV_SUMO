@@ -1,0 +1,26 @@
+names:
+- bench
+- busStop
+- busStopSign
+- car
+- cyclist
+- dog
+- garbageBin
+- human
+- lightPole
+- pedestianCross
+- pedestrianSign
+- sign
+- trafficLight
+- trolley
+- truck
+nc: 15
+roboflow:
+  license: CC BY 4.0
+  project: trafficlight-mmhsv
+  url: https://universe.roboflow.com/yolo-zad4/trafficlight-mmhsv/dataset/1
+  version: 1
+  workspace: yolo-zad4
+test: ../test/images
+train: ../train/images
+val: ../valid/images

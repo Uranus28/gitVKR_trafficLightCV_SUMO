@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional>
+  <inductionLoop id="A1_E1_B1A1_0_VER_UP_0" lane="B1A1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_0.xml" />
+  <laneAreaDetector id="A1_E2_B1A1_0_VER_UP_0" lane="B1A1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_0_E2.xml" />
+  <inductionLoop id="A1_E1_A2A1_1_HOR_LEFT_1" lane="A2A1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_1.xml" />
+  <laneAreaDetector id="A1_E2_A2A1_1_HOR_LEFT_1" lane="A2A1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_1_E2.xml" />
+  <inductionLoop id="A1_E1_A0A1_0_HOR_RIGHT_2" lane="A0A1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_2.xml" />
+  <laneAreaDetector id="A1_E2_A0A1_0_HOR_RIGHT_2" lane="A0A1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_2_E2.xml" />
+  <inductionLoop id="A1_E1_B1A1_1_VER_UP_3" lane="B1A1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_3.xml" />
+  <laneAreaDetector id="A1_E2_B1A1_1_VER_UP_3" lane="B1A1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_3_E2.xml" />
+  <inductionLoop id="A1_E1_A2A1_0_HOR_LEFT_4" lane="A2A1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_4.xml" />
+  <laneAreaDetector id="A1_E2_A2A1_0_HOR_LEFT_4" lane="A2A1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_4_E2.xml" />
+  <inductionLoop id="A1_E1_A0A1_1_HOR_RIGHT_5" lane="A0A1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_5.xml" />
+  <laneAreaDetector id="A1_E2_A0A1_1_HOR_RIGHT_5" lane="A0A1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_A1_5_E2.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_0" lane=":A1_11_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_0.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_1" lane=":A1_7_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_1.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_2" lane=":A1_2_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_2.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_3" lane=":A1_9_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_3.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_4" lane=":A1_4_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_4.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_5" lane=":A1_0_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_5.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_6" lane=":A1_6_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_6.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_7" lane=":A1_0_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_7.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_8" lane=":A1_8_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_8.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_9" lane=":A1_3_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_9.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_10" lane=":A1_4_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_10.xml" />
+  <laneAreaDetector id="A1_INTERSECTION_E2_11" lane=":A1_9_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_A1_11.xml" />
+  <inductionLoop id="B0_E1_A0B0_1_VER_DOWN_0" lane="A0B0_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_0.xml" />
+  <laneAreaDetector id="B0_E2_A0B0_1_VER_DOWN_0" lane="A0B0_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_0_E2.xml" />
+  <inductionLoop id="B0_E1_C0B0_0_VER_UP_1" lane="C0B0_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_1.xml" />
+  <laneAreaDetector id="B0_E2_C0B0_0_VER_UP_1" lane="C0B0_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_1_E2.xml" />
+  <inductionLoop id="B0_E1_C0B0_1_VER_UP_2" lane="C0B0_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_2.xml" />
+  <laneAreaDetector id="B0_E2_C0B0_1_VER_UP_2" lane="C0B0_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_2_E2.xml" />
+  <inductionLoop id="B0_E1_A0B0_0_VER_DOWN_3" lane="A0B0_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_3.xml" />
+  <laneAreaDetector id="B0_E2_A0B0_0_VER_DOWN_3" lane="A0B0_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_3_E2.xml" />
+  <inductionLoop id="B0_E1_B1B0_0_HOR_LEFT_4" lane="B1B0_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_4.xml" />
+  <laneAreaDetector id="B0_E2_B1B0_0_HOR_LEFT_4" lane="B1B0_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_4_E2.xml" />
+  <inductionLoop id="B0_E1_B1B0_1_HOR_LEFT_5" lane="B1B0_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_5.xml" />
+  <laneAreaDetector id="B0_E2_B1B0_1_HOR_LEFT_5" lane="B1B0_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B0_5_E2.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_0" lane=":B0_5_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_0.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_1" lane=":B0_7_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_1.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_2" lane=":B0_5_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_2.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_3" lane=":B0_11_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_3.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_4" lane=":B0_8_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_4.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_5" lane=":B0_10_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_5.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_6" lane=":B0_4_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_6.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_7" lane=":B0_3_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_7.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_8" lane=":B0_8_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_8.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_9" lane=":B0_0_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_9.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_10" lane=":B0_2_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_10.xml" />
+  <laneAreaDetector id="B0_INTERSECTION_E2_11" lane=":B0_0_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B0_11.xml" />
+  <inductionLoop id="B1_E1_A1B1_0_VER_DOWN_0" lane="A1B1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_0.xml" />
+  <laneAreaDetector id="B1_E2_A1B1_0_VER_DOWN_0" lane="A1B1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_0_E2.xml" />
+  <inductionLoop id="B1_E1_C1B1_1_VER_UP_1" lane="C1B1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_1.xml" />
+  <laneAreaDetector id="B1_E2_C1B1_1_VER_UP_1" lane="C1B1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_1_E2.xml" />
+  <inductionLoop id="B1_E1_B0B1_1_HOR_RIGHT_2" lane="B0B1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_2.xml" />
+  <laneAreaDetector id="B1_E2_B0B1_1_HOR_RIGHT_2" lane="B0B1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_2_E2.xml" />
+  <inductionLoop id="B1_E1_B2B1_1_HOR_LEFT_3" lane="B2B1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_3.xml" />
+  <laneAreaDetector id="B1_E2_B2B1_1_HOR_LEFT_3" lane="B2B1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_3_E2.xml" />
+  <inductionLoop id="B1_E1_C1B1_0_VER_UP_4" lane="C1B1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_4.xml" />
+  <laneAreaDetector id="B1_E2_C1B1_0_VER_UP_4" lane="C1B1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_4_E2.xml" />
+  <inductionLoop id="B1_E1_A1B1_1_VER_DOWN_5" lane="A1B1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_5.xml" />
+  <laneAreaDetector id="B1_E2_A1B1_1_VER_DOWN_5" lane="A1B1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_5_E2.xml" />
+  <inductionLoop id="B1_E1_B2B1_0_HOR_LEFT_6" lane="B2B1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_6.xml" />
+  <laneAreaDetector id="B1_E2_B2B1_0_HOR_LEFT_6" lane="B2B1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_6_E2.xml" />
+  <inductionLoop id="B1_E1_B0B1_0_HOR_RIGHT_7" lane="B0B1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_7.xml" />
+  <laneAreaDetector id="B1_E2_B0B1_0_HOR_RIGHT_7" lane="B0B1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B1_7_E2.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_0" lane=":B1_15_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_0.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_1" lane=":B1_10_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_1.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_2" lane=":B1_11_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_2.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_3" lane=":B1_6_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_3.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_4" lane=":B1_18_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_4.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_5" lane=":B1_16_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_5.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_6" lane=":B1_1_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_6.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_7" lane=":B1_4_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_7.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_8" lane=":B1_9_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_8.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_9" lane=":B1_3_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_9.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_10" lane=":B1_16_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_10.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_11" lane=":B1_1_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_11.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_12" lane=":B1_14_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_12.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_13" lane=":B1_13_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_13.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_14" lane=":B1_6_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_14.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_15" lane=":B1_0_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_15.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_16" lane=":B1_5_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_16.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_17" lane=":B1_19_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_17.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_18" lane=":B1_8_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_18.xml" />
+  <laneAreaDetector id="B1_INTERSECTION_E2_19" lane=":B1_11_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B1_19.xml" />
+  <inductionLoop id="B2_E1_B1B2_0_HOR_RIGHT_0" lane="B1B2_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_0.xml" />
+  <laneAreaDetector id="B2_E2_B1B2_0_HOR_RIGHT_0" lane="B1B2_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_0_E2.xml" />
+  <inductionLoop id="B2_E1_C2B2_0_VER_UP_1" lane="C2B2_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_1.xml" />
+  <laneAreaDetector id="B2_E2_C2B2_0_VER_UP_1" lane="C2B2_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_1_E2.xml" />
+  <inductionLoop id="B2_E1_A2B2_0_VER_DOWN_2" lane="A2B2_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_2.xml" />
+  <laneAreaDetector id="B2_E2_A2B2_0_VER_DOWN_2" lane="A2B2_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_2_E2.xml" />
+  <inductionLoop id="B2_E1_B1B2_1_HOR_RIGHT_3" lane="B1B2_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_3.xml" />
+  <laneAreaDetector id="B2_E2_B1B2_1_HOR_RIGHT_3" lane="B1B2_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_3_E2.xml" />
+  <inductionLoop id="B2_E1_C2B2_1_VER_UP_4" lane="C2B2_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_4.xml" />
+  <laneAreaDetector id="B2_E2_C2B2_1_VER_UP_4" lane="C2B2_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_4_E2.xml" />
+  <inductionLoop id="B2_E1_A2B2_1_VER_DOWN_5" lane="A2B2_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_5.xml" />
+  <laneAreaDetector id="B2_E2_A2B2_1_VER_DOWN_5" lane="A2B2_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_B2_5_E2.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_0" lane=":B2_8_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_0.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_1" lane=":B2_6_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_1.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_2" lane=":B2_4_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_2.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_3" lane=":B2_0_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_3.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_4" lane=":B2_7_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_4.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_5" lane=":B2_3_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_5.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_6" lane=":B2_9_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_6.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_7" lane=":B2_2_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_7.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_8" lane=":B2_11_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_8.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_9" lane=":B2_4_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_9.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_10" lane=":B2_0_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_10.xml" />
+  <laneAreaDetector id="B2_INTERSECTION_E2_11" lane=":B2_9_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_B2_11.xml" />
+  <inductionLoop id="C1_E1_C0C1_1_HOR_RIGHT_0" lane="C0C1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_0.xml" />
+  <laneAreaDetector id="C1_E2_C0C1_1_HOR_RIGHT_0" lane="C0C1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_0_E2.xml" />
+  <inductionLoop id="C1_E1_C0C1_0_HOR_RIGHT_1" lane="C0C1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_1.xml" />
+  <laneAreaDetector id="C1_E2_C0C1_0_HOR_RIGHT_1" lane="C0C1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_1_E2.xml" />
+  <inductionLoop id="C1_E1_C2C1_1_HOR_LEFT_2" lane="C2C1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_2.xml" />
+  <laneAreaDetector id="C1_E2_C2C1_1_HOR_LEFT_2" lane="C2C1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_2_E2.xml" />
+  <inductionLoop id="C1_E1_B1C1_1_VER_DOWN_3" lane="B1C1_1" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_3.xml" />
+  <laneAreaDetector id="C1_E2_B1C1_1_VER_DOWN_3" lane="B1C1_1" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_3_E2.xml" />
+  <inductionLoop id="C1_E1_C2C1_0_HOR_LEFT_4" lane="C2C1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_4.xml" />
+  <laneAreaDetector id="C1_E2_C2C1_0_HOR_LEFT_4" lane="C2C1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_4_E2.xml" />
+  <inductionLoop id="C1_E1_B1C1_0_VER_DOWN_5" lane="B1C1_0" pos="-10" period="1" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_5.xml" />
+  <laneAreaDetector id="C1_E2_B1C1_0_VER_DOWN_5" lane="B1C1_0" pos="-150" length="150" period="1" vehicles="all" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/detector_C1_5_E2.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_0" lane=":C1_4_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_0.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_1" lane=":C1_3_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_1.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_2" lane=":C1_7_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_2.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_3" lane=":C1_0_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_3.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_4" lane=":C1_8_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_4.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_5" lane=":C1_10_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_5.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_6" lane=":C1_11_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_6.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_7" lane=":C1_1_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_7.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_8" lane=":C1_6_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_8.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_9" lane=":C1_8_0" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_9.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_10" lane=":C1_1_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_10.xml" />
+  <laneAreaDetector id="C1_INTERSECTION_E2_11" lane=":C1_4_1" pos="0" length="10.0" period="1" friendlyPos="true" file="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/intersection_C1_11.xml" />
+</additional>

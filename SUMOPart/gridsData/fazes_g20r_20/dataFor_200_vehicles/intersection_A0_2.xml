@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-15T17:22:34.698774+03:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Yura Sannikov\Учеба\НИР-диплом26\Папка с кодомм\git\grid.net.xml"/>
+        <route-files value="C:\Users\Yura Sannikov\Учеба\НИР-диплом26\Папка с кодомм\git\grid.rou.xml"/>
+        <additional-files value="C:\Users\Yura Sannikov\Учеба\НИР-диплом26\Папка с кодомм\git\rerouter.add.xml,C:\Users\Yura Sannikov\Учеба\НИР-диплом26\Папка с кодомм\git\additional.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="C:\Users\Yura Sannikov\Учеба\НИР-диплом26\Папка с кодомм\git\gridsData/fazes_g20r_20/dataFor_200_vehicles/grid.output200.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+</detector>

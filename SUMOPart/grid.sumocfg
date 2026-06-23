@@ -1,0 +1,16 @@
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+      <net-file value="grid.net.xml" />
+      <route-files value="grid.rou.xml" />
+      <additional-files value="rerouter.add.xml,additional.xml" />
+    </input>
+    <time>
+      <begin value="0" />
+      <end value="10000" />
+    </time>
+    <output>
+      <fcd-output value="gridsData/predict/fazes_g30r_30/dataFor_1000_vehicles/grid.output1000.xml" />
+    </output>
+
+</sumoConfiguration>
