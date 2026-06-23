@@ -1,0 +1,334 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="обработка каждого объекта" id="J5t2oUebSs4eCLfbEj10">
+    <mxGraphModel dx="984" dy="1428" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-6" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Получение координат объекта&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="367" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-4" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Начало&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="459" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-8" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-9" connectable="0" parent="rVpV4rQmXs0oSkppr7uf-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.6207" y="-1" as="geometry">
+            <mxPoint x="17" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-11" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="215" />
+            </Array>
+            <mxPoint x="260" y="296.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-12" connectable="0" parent="rVpV4rQmXs0oSkppr7uf-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;font&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5569" y="1" as="geometry">
+            <mxPoint x="-36" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontSize=20;" value="&lt;font&gt;Объект в одной из областей to_right, to_left, to_bottom, to_top&lt;/font&gt;" vertex="1">
+          <mxGeometry height="121" width="238.2" x="382.9" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-25" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="592" />
+              <mxPoint x="458" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" value="&lt;span&gt;ID объекта добавляется в счетчик Counter зоны перекрестка&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="179" x="641" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontSize=20;" value="&lt;font&gt;Объект в области перекрестка&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="238.2" x="166" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-14" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=10;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="372" y="328" as="sourcePoint" />
+            <mxPoint x="471" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-15" connectable="0" parent="rVpV4rQmXs0oSkppr7uf-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.6207" y="-1" as="geometry">
+            <mxPoint x="13" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-16" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endSize=10;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="328" as="sourcePoint" />
+            <mxPoint x="-11" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-17" connectable="0" parent="rVpV4rQmXs0oSkppr7uf-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;font&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5569" y="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-23" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="591" />
+              <mxPoint x="458" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Объект больше не находится в зоне наблюдения (ID объекта удаляется из всех счетчиков Counter)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="158" width="186" x="7" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-21" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;ID объекта добавляется в счетчик Counter зоны перекрестка&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="106" width="182.9" x="367" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-24" edge="1" parent="1" source="rVpV4rQmXs0oSkppr7uf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;strokeWidth=3;" target="rVpV4rQmXs0oSkppr7uf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" value="&lt;span&gt;ID объекта удаляется из счетчика Counter предыдущей зоны&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="83" width="207" x="354.95" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="rVpV4rQmXs0oSkppr7uf-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Конец&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="415" y="634" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GmWpKELgFxoaGg6jq-JZ" name="рассчет полезности">
+    <mxGraphModel dx="820" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GRRX0LiZxZB450yTGeAD-1" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502.0666666666666" y="135" as="sourcePoint" />
+            <mxPoint x="502" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Начало&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="459" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-5" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730.5" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-6" connectable="0" parent="GRRX0LiZxZB450yTGeAD-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.6207" y="-1" as="geometry">
+            <mxPoint x="17" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-7" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="391" />
+              <mxPoint x="283" y="420" />
+              <mxPoint x="284" y="420" />
+              <mxPoint x="284" y="449" />
+            </Array>
+            <mxPoint x="285.10000000000014" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-8" connectable="0" parent="GRRX0LiZxZB450yTGeAD-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;font&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5569" y="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontSize=20;" value="&lt;span&gt;&amp;nbsp;Есть пробка на следующем светофоре в том - же направлении&lt;/span&gt;" vertex="1">
+          <mxGeometry height="196" width="256.1" x="373.95" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-10" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="578" />
+              <mxPoint x="502" y="578" />
+            </Array>
+            <mxPoint x="730.5" y="528" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" value="&lt;span&gt;Полезность =0&lt;/span&gt;" vertex="1">
+          <mxGeometry height="87" width="179" x="641" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;font&gt;Конец&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="459" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-26" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483.7142857142858" y="287" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-25" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontSize=20;" value="&lt;span&gt;Переменные:&lt;/span&gt;&lt;div&gt;&lt;span&gt;Всего машин на светофоре,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Всего машин в текущем направлении,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Всего машин, стоящих в пробке&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="163" width="287" x="360" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-28" edge="1" parent="1" source="GRRX0LiZxZB450yTGeAD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" target="GRRX0LiZxZB450yTGeAD-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="578" />
+              <mxPoint x="502" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRRX0LiZxZB450yTGeAD-27" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" value="&lt;span&gt;Полезность =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Всего машин, стоящих в пробке + (&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Всего машин в текущем направлении&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Всего машин на светофоре)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="108" width="375" x="96" y="453" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UqGCZYv8vbNy4XfXLYNx" name="Алгоритм переключения сигнала светофора">
+    <mxGraphModel dx="1093" dy="1587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IdtkndVOF2nGj0clVx2x-1" edge="1" parent="1" source="IdtkndVOF2nGj0clVx2x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IdtkndVOF2nGj0clVx2x-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="833.0666666666666" y="136" as="sourcePoint" />
+            <mxPoint x="833" y="77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;font&gt;Начало&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="790" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-3" edge="1" parent="1" source="IdtkndVOF2nGj0clVx2x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;" target="IdtkndVOF2nGj0clVx2x-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1081" y="314" />
+              <mxPoint x="1081" y="960" />
+              <mxPoint x="832" y="960" />
+            </Array>
+            <mxPoint x="1061.5" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-4" connectable="0" parent="IdtkndVOF2nGj0clVx2x-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.6207" y="-1" as="geometry">
+            <mxPoint x="-74" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-5" edge="1" parent="1" source="IdtkndVOF2nGj0clVx2x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="mTpnx7tRK3gOKg8eZHUJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="290" />
+            </Array>
+            <mxPoint x="614.5" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-6" connectable="0" parent="IdtkndVOF2nGj0clVx2x-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5569" y="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontSize=16;" value="&lt;span&gt;Есть время окончания&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;переключения сигнала&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="256.1" x="704.95" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="&lt;font&gt;Конец&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="86" x="789" y="989" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-11" edge="1" parent="1" source="IdtkndVOF2nGj0clVx2x-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IdtkndVOF2nGj0clVx2x-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="814.7142857142858" y="288" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontSize=16;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;Переменные:&lt;/span&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;switching_to - фаза, на которую необходимо переключить светофор,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;cur_phase - текущая фаза светофора&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;time_to_end_switch - время к которому произойдет переключение&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;на основную фазу&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;cur_step - текущее время&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;min_signal_duration - минимальное время работы сигнала&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 100%;&quot;&gt;time_of_working - текущее время работы сигнала без переключений&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="169" width="581.5" x="542.5" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtkndVOF2nGj0clVx2x-13" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IdtkndVOF2nGj0clVx2x-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="819" />
+              <mxPoint x="832" y="819" />
+            </Array>
+            <mxPoint x="619" y="726" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Меняем фазу светофора на одну из основных фаз&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(горизонтальная / вертикальная / Красный для всех)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Очищаем информацию о переключению для светофора&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;time_to_end_switch,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;switching_to&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;time_of_working)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="394" x="636" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-6" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mTpnx7tRK3gOKg8eZHUJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-7" connectable="0" parent="mTpnx7tRK3gOKg8eZHUJ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Да&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6912" y="2" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-9" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mTpnx7tRK3gOKg8eZHUJ-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-11" connectable="0" parent="mTpnx7tRK3gOKg8eZHUJ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3567" y="3" as="geometry">
+            <mxPoint x="1" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;текущее время == время&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;переключения сигнала&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="108" width="256.1" x="487" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-13" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mTpnx7tRK3gOKg8eZHUJ-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248.5" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Переустанавливаемм текущую фазу светофора.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Обновляемм счетчик&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;time_of_working&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="243" x="299.5" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-18" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IdtkndVOF2nGj0clVx2x-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="694" y="664" />
+              <mxPoint x="694" y="959" />
+              <mxPoint x="832" y="959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-19" connectable="0" parent="mTpnx7tRK3gOKg8eZHUJ-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.7879" y="-1" as="geometry">
+            <mxPoint x="-61" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-21" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mTpnx7tRK3gOKg8eZHUJ-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="664" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-22" connectable="0" parent="mTpnx7tRK3gOKg8eZHUJ-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5987" as="geometry">
+            <mxPoint x="3" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;минимальное время работы сигнала не прошло&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="108" width="256.1" x="292.95" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-23" edge="1" parent="1" source="mTpnx7tRK3gOKg8eZHUJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IdtkndVOF2nGj0clVx2x-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="959" />
+              <mxPoint x="832" y="959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTpnx7tRK3gOKg8eZHUJ-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Меняем фазу светофора на одну из промежуточных фаз&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(желтый на горизонтальную / вертикальную / Красную для всех)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;добавляем информацию о переключении для светофора&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;time_to_end_switch, &lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;switching_to&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="435" x="52" y="751" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
